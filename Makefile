@@ -13,6 +13,6 @@ all:
 	$(CC) $(CFLAGS) main.cpp $(LIBMPI) -o osmosempi
 
 clean:
-	rm osmosempi
+	rm -f osmosempi
 
 	
